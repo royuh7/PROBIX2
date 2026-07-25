@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: PROBIX",
+  "description": "문제 발견 중심 창업·프로젝트 아이디어 발상 플랫폼 (AI 발명 멘토, 마인드맵, 평가, 동업자 매칭)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
