@@ -1,1 +1,2 @@
-module.exports = require('../dist/server.cjs').app;
+const server = require('../dist/server.cjs');
+module.exports = server.app;
