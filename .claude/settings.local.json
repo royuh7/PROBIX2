@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for c in 29e0a39 2838087 9b320f0 938550e 03075f0)",
+      "Bash(do echo \"=== $c ===\")",
+      "Bash(done)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
