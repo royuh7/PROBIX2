@@ -52,7 +52,7 @@
     "runtime": null
   },
   "build": {
-    "buildCommand": "npm run build 2>&1",
+    "buildCommand": "npm run clean 2>&1 && npm run lint 2>&1 && npm run build 2>&1",
     "testCommand": null,
     "lintCommand": "npm run lint",
     "devCommand": "npm run dev",
@@ -138,27 +138,27 @@
   },
   "hotPaths": [
     {
+      "path": "package.json",
+      "accessCount": 3,
+      "lastAccessed": 1784949740781,
+      "type": "file"
+    },
+    {
+      "path": "api/index.ts",
+      "accessCount": 3,
+      "lastAccessed": 1784949753173,
+      "type": "file"
+    },
+    {
       "path": "server.ts",
       "accessCount": 2,
       "lastAccessed": 1784949180804,
       "type": "file"
     },
     {
-      "path": "api/index.ts",
-      "accessCount": 2,
-      "lastAccessed": 1784949251297,
-      "type": "file"
-    },
-    {
       "path": "vercel.json",
       "accessCount": 2,
       "lastAccessed": 1784949267950,
-      "type": "file"
-    },
-    {
-      "path": "package.json",
-      "accessCount": 1,
-      "lastAccessed": 1784949031080,
       "type": "file"
     },
     {

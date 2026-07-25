@@ -1,4 +1,4 @@
 // @ts-ignore
-import { app } from '../server.ts';
+import server from './_server.cjs';
 
-export default app;
+export default server.app || server;
